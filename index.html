@@ -85,6 +85,13 @@
 		<script src="./js/script.js"></script>
 		<script src="./js/main.js"></script>
 
+				<!--모바일 상단바 삭제-->
+		<script type="text/javascript">
+			window.addEventListener("load", function() {
+				setTimeout(scrollTo, 0, 0, 1);
+			}, false);
+		</script>
+
 	</head>
 
 	<body>
@@ -96,13 +103,6 @@
 				<small>이 게임을 플레이하기 위해서, 자바스크립트 실행을 허용하거나 다른 브라우저를 사용해 주십시오.</small>
 			</div>
 		</noscript>
-
-		<!--모바일 상단바 삭제-->
-		<script type="text/javascript">
-			window.addEventListener("load", function() {
-				setTimeout(scrollTo, 0, 0, 1);
-			}, false);
-		</script>
 
 		<div id="monogatari">
 			<visual-novel>
