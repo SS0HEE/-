@@ -25,12 +25,6 @@
 
 const { $_ready, $_ } = Monogatari;
 
-$_ready (() => {
-	// 2. Inside the $_ready function:
-
-
-
-
 	//주소창 숨기기
 	function hideAddressBar()
 {
@@ -48,7 +42,12 @@ window.addEventListener("load", function(){ if(!window.pageYOffset){ hideAddress
 window.addEventListener("orientationchange", hideAddressBar );
 
 
-	
+
+
+$_ready (() => {
+	// 2. Inside the $_ready function:
+
+
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
 
