@@ -265,6 +265,12 @@ text-box[data-speaking="맵"] {
 	border: none!important;
 }
 
+/* 모바일 최적화 */
+body, html {
+	height: auto;
+	min-height: 100vh;
+}
+
 /* 메인메뉴 도움말(Help) 버튼 제거 */
 main-screen button[string="Help"] {
 	display: none;
